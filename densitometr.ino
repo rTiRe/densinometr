@@ -44,7 +44,7 @@ void loop() {
   int cod = Serial.readString().toInt();
   if (cod == CONFIGURE_COD)
   {
-    printBaseResistens();
+    configureBaseResistens();
     Serial.println(1);
     return;
   }
@@ -80,7 +80,7 @@ void loop() {
   delay(FALL_DELAY);
 }
 
-void printBaseResistens()
+void configureBaseResistens()
 {
   int iterations = 1;
 
