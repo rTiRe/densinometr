@@ -1,0 +1,15 @@
+<Graph>
+    BoxLayout:
+        id: box
+        size_hint_y: .8
+        pos_hint: {"top":1}
+
+    BoxLayout:
+        size_hint_y: .2
+        Button:
+            text: "Start"
+            on_release: root.start_plot()
+
+        Button:
+            text: "Clear"
+            on_release: root.clear_plot()

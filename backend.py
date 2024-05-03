@@ -52,7 +52,7 @@ class Densitometr:
         result = {}
         for values in self.densitometr_values:
             for color, value in values.items():
-                start_val =  result.get(color, 0)
+                start_val = result.get(color, 0)
                 result[color] = value + start_val
         for color in result.keys():
             result[color] /= len(self.densitometr_values)
@@ -64,7 +64,7 @@ class Densitometr:
         current_colors_optical_density = {
             "blue": values[0],
             "green": values[1],
-            "light_blue": values[2],
+            "lightblue": values[2],
             "red": values[3],
             "purple": values[4],
             "yellow": values[5],
