@@ -1,7 +1,11 @@
 Проект учебного денситометра студентов группы К0709-22/2
-[Крдян А.](https://github.com/MomusWinner)
-[Роганов Е.](https://github.com/roganofff)
-[Тюрин А.](https://github.com/rTiRe)
+
+* [Крдян А.](https://github.com/MomusWinner)
+
+* [Роганов Е.](https://github.com/roganofff)
+
+* [Тюрин А.](https://github.com/rTiRe)
+
 (Смотреть contributors)
 
 Это стандартный проект с немного модифицированными составляющими под свои нужды.
